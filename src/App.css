@@ -1,0 +1,77 @@
+
+
+.App{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+:focus {
+  outline: 0;
+}
+button:focus{
+  background-color:#716D7B;
+}
+
+.buttonContainer{
+  display:flex;
+  justify-content: center;
+  
+}
+.resultBox{
+  display:flex;
+  flex-direction: row-reverse;
+  border: solid;
+  border-color: #000000;
+  border-width: 1px;
+  color: #ffffff;
+  background-color: #494A50;
+  text-align: right;
+  padding-right: 15px;
+  right: 0;
+  transform-origin: right;
+  height: 65px;
+  font-size: 50px;
+} 
+
+.grayButton{
+  border-style:solid;
+  font-size: 25px;
+  border-color: #000000;
+  border-width: 0.5px;
+  background-color: #A0A1AF;
+  width: 80px;
+  height: 50px;
+}
+
+.orangeButton{
+  border-style:solid;
+  border-color: #000000;
+  border-width: 0.5px;
+  background-color: #FF8D33;
+  font-size: 25px;
+  width: 80px;
+  height: 50px;
+}
+.lightGrayButton{
+  border-style:solid;
+  border-color: #000000;
+  border-width: 0.5px;
+  background-color: #D6D6D7; 
+  font-size: 25px;
+  width: 80px;
+  height: 50px;
+}
+
+.zeroButton{
+  border-style:solid;
+  border-color: #000000;
+  border-width: 0.5px;
+  background-color: #D6D6D7; 
+  font-size: 25px;
+  width: 160px;
+  height: 50px;
+}
